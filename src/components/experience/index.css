@@ -1,0 +1,21 @@
+.experiences-content-container{
+    margin-top: 20px;
+}
+.work-experience-container{
+    margin-top: 20px;
+}
+.location{
+    margin-left: 10px;
+}
+.ui.mini.image .mini-image-container{
+    width: 100px;
+}
+#company-link{
+    color: rgb(55, 53, 47);
+    text-decoration: underline;
+}
+/* .experiences-content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} */
