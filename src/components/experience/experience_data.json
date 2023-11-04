@@ -21,7 +21,7 @@
         "title": "Research Assistant",
         "image": "rutgers",
         "date": "May 2021 - May 2022",
-        "location": "New Brunswick, NJ",
+        "location": "New Jersey, USA",
         "work": [
             "● Led the development of a software platform using Python, OpenCV, and Arduino enabling researchers to conduct Optogenetics experiments while seamlessly recording real-time video and experiment data.",
             "● Significantly contributed to automating experiments, streamlining data collection, and improving the overall efficiency of researchers with non-technical backgrounds.",
@@ -34,7 +34,7 @@
         "title": "Software Engineer Intern",
         "image": "whizai",
         "date": "November 2021 - January 2022",
-        "location": "Somerset, NJ",
+        "location": "New Jersey, USA and Pune, India",
         "work": [
             "● Reduced the latency of APIs by developing efficient back-end functionality to support language models using Python, Flask, and Postman.",
             "● Implemented and benchmarked an intermediate database cache with SQLAlchemy API that reduced database fetch time by over 90%.",
@@ -49,13 +49,26 @@
         "title": "Full Stack Engineer Intern",
         "image": "healco",
         "date": "May 2020 - February 2021",
-        "location": "Jersey City, NJ",
+        "location": "New Jersey, USA",
         "work": [
             "● Architected, developed, and deployed HealCo’s press release web app with robust identity access management, press sharing functionality, and administrative features using NextJS, TypeScript, PostgreSQL, Twilio, SendGrid, and Stripe.",
             "● Built a production-grade, scalable, and cost-effective DevOps system and CI/CD pipeline for all HealCo apps using AWS, Docker, and GitLab CI/CD.",
             "● Migrated the entire codebase from JavaScript to TypeScript to reduce bugs and improve maintainability.",
             "● Integrated Stripe into the web application to enable payments by ACH debits and credit cards.",
             "● Technologies: AWS, Node.js, Next.js, React.js, Typescript, Javascript, MySQL, PostgreSQL, Docker, Microservices."
+        ]
+    },
+    {
+        "name": "Quakerbridge Hacks",
+        "link": "https://rohan2002.github.io/QBHacks/",
+        "title": "President and Founder",
+        "image": "qbhacks",
+        "date": "2019",
+        "location": "New Jersey, USA",
+        "work": [
+            "● President and Founder of 12-Hour Hackathon in Trenton, NJ",
+            "● Oversaw all aspects of event planning, demonstrating strong leadership principles in marketing, finance, logistics, sponsorship, and venue coordination.",
+            "● Successfully brought together diverse stakeholders and volunteers to create a valuable learning opportunity, helping participants elevate their technology knowledge and skills."
         ]
     }
 ]

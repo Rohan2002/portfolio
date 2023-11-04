@@ -9,7 +9,7 @@ import RohanProfilePic from "./images/profile-picture.jpeg";
 const GitHubLink = "https://github.com/Rohan2002";
 const LinkedinLink = "https://www.linkedin.com/in/rohan-deshpande-2002/";
 const InstagramLink = "https://www.instagram.com/rohan_dpnde/";
-
+const resumeLink = "/Rohan-Deshpande-Resume.pdf";
 
 const IntroductionPage = () => {
     return (
@@ -24,14 +24,17 @@ const IntroductionPage = () => {
                 <b>rohan</b> [dot] <b>deshpande</b> [at] <b>rutgers</b> [dot] <b>edu</b>
             </div>
             <div className="social-container">
-                <a target="_blank" href={GitHubLink}>
+                <a target="_blank" rel="noreferrer" href={GitHubLink}>
                     <Icon className="icon-design" link size='big' name='github' />
                 </a>
-                <a target="_blank" href={LinkedinLink}>
+                <a target="_blank" rel="noreferrer" href={LinkedinLink}>
                     <Icon className="icon-design" link size='big' name='linkedin' />
                 </a>
-                <a target="_blank" href={InstagramLink}>
+                <a target="_blank" rel="noreferrer" href={InstagramLink}>
                     <Icon className="icon-design" link size='big' name='instagram' />
+                </a>
+                <a target="_blank" rel="noreferrer" href={resumeLink}>
+                    <Icon className="icon-design" link size='big' name='file' />
                 </a>
             </div>
         </div>

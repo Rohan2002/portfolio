@@ -1,0 +1,72 @@
+[
+    {
+        "name": "ASCII Chess",
+        "date": "October 2023",
+        "description": "Developed Chess. It includes the implementation of all standard Chess rules with multiplayer support!",
+        "link": "https://github.com/Rohan2002/Chess",
+        "image": "chess",
+        "type": "Application",
+        "tools": ["Java"],
+        "award": ""
+    },
+    {
+        "name": "GoodEats",
+        "date": "February 2021",
+        "description": "Developed a full-stack web application using React and Node.js for users to obtain nutritional information from images of food items.",
+        "link": "https://github.com/Rohan2002/GoodEats",
+        "image": "goodeats",
+        "type": "Application",
+        "tools": ["React", "Node.js"],
+        "award": ""
+    },
+    {
+        "name": "Sentry",
+        "date": "March 2020",
+        "description": "Developed a full-stack web application to show a user how much energy they use and how they can be more efficient with their usage.",
+        "link": "https://github.com/Rohan2002/Win-ProfHacks2020-Sentry",
+        "image": "sentry",
+        "type": "Application",
+        "tools": ["React", "Node.js", "Python", "MongoDB"],
+        "award": "MLH's MongoDB Prize at ProfHacks"
+    },
+    {
+        "name": "Photo Library",
+        "date": "November 2023",
+        "description": "Developed a Java FX photo application for managing photos in albums, implementing features such as user login, album creation, photo tagging, search functionality, and user management, following best practices for code organization and version control using Bitbucket.",
+        "link": "https://github.com/Rohan2002/photolib",
+        "image": "library",
+        "type": "Application",
+        "tools": ["Java", "JavaFX", "FXML"],
+        "award": ""
+    },
+    {
+        "name": "Malloc/Free Clone",
+        "date": "May 2022",
+        "description": "Reinvent the wheel by creating my own memory allocation and deallocation library in C.",
+        "link": "https://github.com/Rohan2002/Malloc-Free",
+        "image": "library",
+        "type": "Library",
+        "tools": ["C"],
+        "award": ""
+    },
+    {
+        "name": "Concurrent File Formatter",
+        "date": "May 2022",
+        "description": "Created, tested, and documented a command-line interface (CLI) in C that uses producer-consumer threading to concurrently format (word wrap) text files in multiple directories and subdirectories.",
+        "link": "https://github.com/Rohan2002/Concurrent-File-Wrapper",
+        "image": "library",
+        "type": "Library",
+        "tools": ["C"],
+        "award": ""
+    },
+    {
+        "name": "Posix Thread Clone",
+        "date": "October 2023",
+        "description": "Designed and benchmarked a custom C library to implement Posix Threads (pthread) in user space, including thread mutex, scheduler, and essential thread functionality.",
+        "link": "https://github.com/Rohan2002/threadlib",
+        "image": "library",
+        "type": "Library",
+        "tools": ["C"],
+        "award": ""
+    }
+]

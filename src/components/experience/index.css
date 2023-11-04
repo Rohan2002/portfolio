@@ -14,8 +14,36 @@
     color: rgb(55, 53, 47);
     text-decoration: underline;
 }
-/* .experiences-content-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-} */
+.experience-card{
+    background-color: white !important;
+    padding: 20px !important;
+    border-radius: 20px !important;
+}
+.button-div{
+    margin-top: 20px;
+}
+.company-button-kpmg{
+    width: 100%;
+    background-color: #1F49E2 !important;
+    color: white !important;
+}
+.company-button-rutgers{
+    width: 100%;
+    background-color: #CC0133 !important;
+    color: white !important;
+}
+.company-button-whizai{
+    width: 100%;
+    background-color: #0F2347 !important;
+    color: white !important;
+}
+.company-button-healco{
+    width: 100%;
+    background-color: #3FD9B7 !important;
+    color: white !important;
+}
+.company-button-qbhacks{
+    width: 100%;
+    background-color: #F15F40 !important;
+    color: white !important;
+}

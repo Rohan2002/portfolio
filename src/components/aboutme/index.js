@@ -11,18 +11,17 @@ const AboutMe = () => {
                 <Header as='h1'>About Me</Header>
             </div>
             <div className="about-me-content-container">
-                <p>
                     Hello, I'm Rohan!
                     <br/>
                     <br/>
-                    I have a diverse background, having spent my formative years in Tokyo, pursued my education in New Jersey, and 
-                    gained work experience at companies
-                    from the United States, Japan, and India.
-                    I'm constantly enthusiastic about exploring fresh viewpoints and ideas.
-                </p>
+                    Having grown up in Tokyo, studied in New Jersey and worked at American, 
+                    Japanese and Indian companies, I'm always eager to discover new perspectives.
+                    <br/>
+                    <br/>
+                    I am studying computer science, and mathematics at Rutgers University, New Brunswick.
             </div>
         </div>
     )
 };
 
-export default AboutMe;
+export default AboutMe;  

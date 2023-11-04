@@ -1,9 +1,11 @@
 import IntroductionPage from "../src/components/introduction";
 import AboutMe from "../src/components/aboutme";
 import Experiences from "../src/components/experience";
+import Projects from "../src/components/projects";
 
 import './App.css';
 import SideBar from '../src/components/sidebar';
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -19,6 +21,12 @@ function App() {
           </section>
           <section id="experience">
             <Experiences />
+          </section>
+          <section id="projects">
+            <Projects />
+          </section>
+          <section id="footer">
+            <Footer />
           </section>
         </div>
       </div>
