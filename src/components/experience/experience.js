@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Item, Header, Button } from 'semantic-ui-react'
+import { Item, Header, Button, Icon } from 'semantic-ui-react'
 
 import KpmgImage from './companies/kpmg.jpeg';
 import HealCoImage from './companies/healco.svg';
@@ -41,6 +41,18 @@ const ExperienceCard = (props) => {
                             <Item.Description key={index}>{exp}</Item.Description>
                         );
                     })}
+                    {
+                        props.name === "KPMG" ? (
+                            <div className="documents-container">
+                                <a className="link" target="_blank" rel="noreferrer" href="/kpmg-experience-letter.pdf">
+                                    <Icon name="file" link size="big" />
+                                </a>
+                                <a className="link" target="_blank" rel="noreferrer" href="/KPMGAward.pdf">
+                                    <Icon name="trophy" link size="big" />
+                                </a>
+                            </div>
+                        ) : ""
+                    }
                 </div>}
                 <div className="button-div">
                     <Button className={`company-button-${props.image}`} type="button" onClick={handleOnClick}>{on ? "less" : "more"}</Button>

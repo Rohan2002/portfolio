@@ -10,6 +10,7 @@ const SideBar = () => {
         <li><a href="#about"><Icon size='big' name="user" /></a></li>
         <li><a href="#experience"><Icon size='big' name="suitcase" /></a></li>
         <li><a href="#projects"><Icon size='big' name="boxes" /></a></li>
+        <li><a href="#skills"><Icon size='big' name="code" /></a></li>
       </ul>
     </div>
   )

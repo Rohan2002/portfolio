@@ -1,0 +1,16 @@
+.skills-content-container{
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    gap: 30px;
+}
+.text-container-skill{
+    font-size: 17px;
+}
+.progress-bar{
+    margin-top: 7px;
+}
