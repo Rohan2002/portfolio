@@ -20,14 +20,14 @@ function App() {
           <section id="about">
             <AboutMe />
           </section>
+          <section id="skills">
+            <Skills />
+          </section>
           <section id="experience">
             <Experiences />
           </section>
           <section id="projects">
             <Projects />
-          </section>
-          <section id="skills">
-            <Skills />
           </section>
           <section id="footer">
             <Footer />

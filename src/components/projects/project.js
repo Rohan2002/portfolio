@@ -31,7 +31,7 @@ const ProjectCard = (props) => {
                     <Icon name='github' />
                 </a>
                 {props.award.length > 0 ? <div className='award-container'>
-                    <Icon name="trophy" />: {props.award}
+                    <Icon name="trophy" />: {props.award} 
                 </div> : ""
                 }
                 <div className='tool-container'>

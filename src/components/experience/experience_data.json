@@ -11,9 +11,9 @@
             "● Effectively minimized post-pen testing security vulnerabilities within the application's Kubernetes cluster and Django backend, all while meeting stringent production release timelines.",
             "● Architected and developed a comprehensive property-based testing framework in Clojure for REST APIs, assessing functionality and security across varying firewall conditions, and initiating adoption within the company.",
             "● Designed and implemented a caching microservice, reducing processing time by 30-50% for a major company application.",
-            "● Led and organized a series of company-wide knowledge-sharing sessions, which collected more than 2⁄3 of employees and contributed largely to context sharing and transparency across each division.",
-            "● Technologies: Django, Python, Clojure, Automated Testing, Algorithms, Kubernetes, Docker, Microservices"
-        ]
+            "● Led and organized a series of company-wide knowledge-sharing sessions, which collected more than 2⁄3 of employees and contributed largely to context sharing and transparency across each division."
+        ],
+        "technologies": "Django, Python, Clojure, Automated Testing, Algorithms, Kubernetes, Docker, Microservices"
     },
     {
         "name": "Rutgers, Shumyatsky Lab",
@@ -24,9 +24,9 @@
         "location": "New Jersey, USA",
         "work": [
             "● Led the development of a software platform using Python, OpenCV, and Arduino enabling researchers to conduct Optogenetics experiments while seamlessly recording real-time video and experiment data.",
-            "● Significantly contributed to automating experiments, streamlining data collection, and improving the overall efficiency of researchers with non-technical backgrounds.",
-            "● Technologies: Python, OpenCV, Arduino, Statistical Data Analysis"
-        ]
+            "● Significantly contributed to automating experiments, streamlining data collection, and improving the overall efficiency of researchers with non-technical backgrounds."
+        ],
+        "technologies": "Python, OpenCV, Arduino, Statistical Data Analysis"
     },
     {
         "name": "Whiz.ai",
@@ -39,9 +39,9 @@
             "● Reduced the latency of APIs by developing efficient back-end functionality to support language models using Python, Flask, and Postman.",
             "● Implemented and benchmarked an intermediate database cache with SQLAlchemy API that reduced database fetch time by over 90%.",
             "● Increased the efficiency of engineers by integrating and documenting Alembic for easier database schema migrations.",
-            "● Collaborated and supported multiple machine learning engineers and data scientists worldwide using tools such as Jira in an agile environment.",
-            "● Technologies: Python, Databases, Flask, REST APIs, Language Models, Microservices"
-        ]
+            "● Collaborated and supported multiple machine learning engineers and data scientists worldwide using tools such as Jira in an agile environment."
+        ],
+        "technologies": "Python, Databases, Flask, REST APIs, Language Models, Microservices"
     },
     {
         "name": "HealCo Inc.",
@@ -54,21 +54,21 @@
             "● Architected, developed, and deployed HealCo’s press release web app with robust identity access management, press sharing functionality, and administrative features using NextJS, TypeScript, PostgreSQL, Twilio, SendGrid, and Stripe.",
             "● Built a production-grade, scalable, and cost-effective DevOps system and CI/CD pipeline for all HealCo apps using AWS, Docker, and GitLab CI/CD.",
             "● Migrated the entire codebase from JavaScript to TypeScript to reduce bugs and improve maintainability.",
-            "● Integrated Stripe into the web application to enable payments by ACH debits and credit cards.",
-            "● Technologies: AWS, Node.js, Next.js, React.js, Typescript, Javascript, MySQL, PostgreSQL, Docker, Microservices."
-        ]
+            "● Integrated Stripe into the web application to enable payments by ACH debits and credit cards."
+        ],
+        "technologies": "AWS, Node.js, Next.js, React.js, Typescript, Javascript, MySQL, PostgreSQL, Docker, Microservices"
     },
     {
         "name": "Quakerbridge Hacks",
         "link": "https://rohan2002.github.io/QBHacks/",
-        "title": "President and Founder",
+        "title": "Founder and President",
         "image": "qbhacks",
         "date": "2019",
         "location": "New Jersey, USA",
         "work": [
             "● President and Founder of 12-Hour Hackathon in Trenton, NJ",
-            "● Oversaw all aspects of event planning, demonstrating strong leadership principles in marketing, finance, logistics, sponsorship, and venue coordination.",
-            "● Successfully brought together diverse stakeholders and volunteers to create a valuable learning opportunity, helping participants elevate their technology knowledge and skills."
-        ]
+            "● Oversaw all aspects of event planning, demonstrating strong leadership principles in marketing, finance, logistics, sponsorship, and venue coordination."
+        ],
+        "technologies": "Communication, Emphaty, Leadership"
     }
 ]

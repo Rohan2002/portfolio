@@ -25,6 +25,7 @@ const Experiences = () => {
                             image={exp.image}
                             title={exp.title}
                             link={exp.link}
+                            tech={exp.technologies}
                         />
                     ))}
                 </Item.Group>

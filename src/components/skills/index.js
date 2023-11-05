@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Header, Progress } from 'semantic-ui-react'
+import { Header } from 'semantic-ui-react'
 
 import "./index.css";
 
@@ -20,15 +20,15 @@ const Skills = () => {
                 <div className="text-container-skill">
                     <Header as="h2">Spoken Languages</Header>
                     <div>
-                        English, Marathi, Hindi, Japanese, French
+                        English, Marathi, Hindi, Japanese
                     </div>
                 </div>
                 <div className="text-container-skill">
                     <Header as="h2">Framework and Tools</Header>
                     <div>
-                        Git, Docker, Kubernetes, JavaFX, Redis, Operating System Design, React.js, Next.js, Node.js, 
+                        Git, Docker, Kubernetes, JavaFX, Redis, Operating System Design, Javascript App Frameworks (React.js, Next.js, Node.js), 
                         <br/>
-                        Databases, Django, Flask, Microservices, Concurrency
+                        Databases, Python App Frameworks (Django, Flask), Microservices, Concurrency, Automated Testing
                     </div>
                 </div>
                 <div className="text-container-skill">

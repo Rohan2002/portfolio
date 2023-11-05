@@ -52,4 +52,10 @@
 }
 .documents-container{
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 10px;
+
 }

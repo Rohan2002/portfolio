@@ -44,16 +44,23 @@ const ExperienceCard = (props) => {
                     {
                         props.name === "KPMG" ? (
                             <div className="documents-container">
-                                <a className="link" target="_blank" rel="noreferrer" href="/kpmg-experience-letter.pdf">
-                                    <Icon name="file" link size="big" />
-                                </a>
-                                <a className="link" target="_blank" rel="noreferrer" href="/KPMGAward.pdf">
-                                    <Icon name="trophy" link size="big" />
-                                </a>
+                                <div>
+                                    <a className="link" target="_blank" rel="noreferrer" href="/kpmg-experience-letter.pdf">
+                                        <Icon name="file" link size="big" /> Internship Feedback Report
+                                    </a>
+                                </div>
+                                <div>
+                                    <a className="link" target="_blank" rel="noreferrer" href="/KPMGAward.pdf">
+                                        <Icon name="trophy" link size="big" /> Good Project Performance Achievement
+                                    </a>
+                                </div>
                             </div>
                         ) : ""
                     }
                 </div>}
+                <div>
+                    <b>Skills:</b> {props.tech}
+                </div>
                 <div className="button-div">
                     <Button className={`company-button-${props.image}`} type="button" onClick={handleOnClick}>{on ? "less" : "more"}</Button>
                 </div>
