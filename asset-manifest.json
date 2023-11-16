@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.043dfe44.css",
-    "main.js": "/static/js/main.e8dc1d63.js",
+    "main.js": "/static/js/main.6b3dac61.js",
     "static/media/scuba.jpeg": "/static/media/scuba.01975690609a4a41cd49.jpeg",
     "static/media/brand-icons.svg": "/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/static/media/icons.62d9dae4e0040e81c980.svg",
@@ -29,10 +29,10 @@
     "static/media/healco.svg": "/static/media/healco.5c83fcb9af32b23fe15393dd4453f107.svg",
     "index.html": "/index.html",
     "main.043dfe44.css.map": "/static/css/main.043dfe44.css.map",
-    "main.e8dc1d63.js.map": "/static/js/main.e8dc1d63.js.map"
+    "main.6b3dac61.js.map": "/static/js/main.6b3dac61.js.map"
   },
   "entrypoints": [
     "static/css/main.043dfe44.css",
-    "static/js/main.e8dc1d63.js"
+    "static/js/main.6b3dac61.js"
   ]
 }
