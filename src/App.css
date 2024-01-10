@@ -1,8 +1,16 @@
 .root-container {
   background-color: #f4f4f4;
 }
-.content-div{
+.content-div-web{
   margin-left: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 30px;
+  padding: 70px;
+}
+.content-div-mobile{
+  
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

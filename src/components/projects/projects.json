@@ -20,23 +20,23 @@
         "award": ""
     },
     {
-        "name": "Sentry",
-        "date": "March 2020",
-        "description": "Developed a full-stack web application to show a user how much energy they use and how they can be more efficient with their usage.",
-        "link": "https://github.com/Rohan2002/Win-ProfHacks2020-Sentry",
-        "image": "sentry",
-        "type": "Application",
-        "tools": ["React", "Node.js", "Python", "MongoDB"],
-        "award": "MLH's MongoDB Prize at ProfHacks"
-    },
-    {
-        "name": "Photo Library",
+        "name": "Photo Library (Desktop)",
         "date": "November 2023",
         "description": "Developed a Java FX photo application for managing photos in albums, implementing features such as user login, album creation, photo tagging, search functionality, and user management, following best practices for code organization and version control using Bitbucket.",
         "link": "https://github.com/Rohan2002/photolib",
-        "image": "library",
+        "image": "AlbumDesktop",
         "type": "Application",
         "tools": ["Java", "JavaFX", "FXML"],
+        "award": ""
+    },
+    {
+        "name": "Photo Library (Android)",
+        "date": "December 2023",
+        "description": "Developed the same Photo Library project for the Android phone.",
+        "link": "https://github.com/Rohan2002/Albums-Android",
+        "image": "AlbumPhone",
+        "type": "Application",
+        "tools": ["Java", "Android Studio"],
         "award": ""
     },
     {
@@ -63,7 +63,27 @@
         "name": "Posix Thread Clone",
         "date": "October 2023",
         "description": "Designed and benchmarked a custom C library to implement Posix Threads (pthread) in user space, including thread mutex, scheduler, and essential thread functionality.",
-        "link": "https://github.com/Rohan2002/threadlib",
+        "link": "https://github.com/Rohan2002/Operating-System/tree/main/threading",
+        "image": "library",
+        "type": "Library",
+        "tools": ["C"],
+        "award": ""
+    },
+    {
+        "name": "Virtual Memory",
+        "date": "November 2023",
+        "description": "Developed a library in C to simulate virtual memory. I implemented a 2-level page table to store the virtual address translations, and optimized page table lookup with a translation lookaside buffer",
+        "link": "https://github.com/Rohan2002/Operating-System/tree/main/virtual-memory",
+        "image": "library",
+        "type": "Library",
+        "tools": ["C"],
+        "award": ""
+    },
+    {
+        "name": "FUSE based File System",
+        "date": "December 2023",
+        "description": "Designed a file system using FUSE (Filesystem in Userspace). I implemented basic file system operations like ls, touch, mkdir, cd.",
+        "link": "https://github.com/Rohan2002/Operating-System/tree/main/file-system",
         "image": "library",
         "type": "Library",
         "tools": ["C"],

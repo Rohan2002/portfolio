@@ -45,6 +45,11 @@ const ExperienceCard = (props) => {
                         props.name === "KPMG" ? (
                             <div className="documents-container">
                                 <div>
+                                    <a className="link" target="_blank" rel="noreferrer" href="https://patents.google.com/patent/WO2022113378A1/en?assignee=KPMG+Ignition+Tokyo&oq=KPMG+Ignition+Tokyo&page=2">
+                                        <Icon name="book" link size="big" /> PDF Table Merging Patent
+                                    </a>
+                                </div>
+                                <div>
                                     <a className="link" target="_blank" rel="noreferrer" href="/kpmg-experience-letter.pdf">
                                         <Icon name="file" link size="big" /> Internship Feedback Report
                                     </a>
@@ -60,6 +65,9 @@ const ExperienceCard = (props) => {
                 </div>}
                 <div>
                     <b>Skills:</b> {props.tech}
+                </div>
+                <div className="summary-div">
+                    <b>Summary:</b> {props.summary}
                 </div>
                 <div className="button-div">
                     <Button className={`company-button-${props.image}`} type="button" onClick={handleOnClick}>{on ? "less" : "more"}</Button>

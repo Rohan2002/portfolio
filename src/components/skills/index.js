@@ -32,9 +32,11 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className="text-container-skill">
-                    <Header as="h2">Interpersonal Skills</Header>
+                    <Header as="h2">Coursework</Header>
                     <div>
-                        Communication, Empathy, Problem Solving, Teamplayer, Adaptibility
+                    Operating System Design (Graduate Level), Computer Security, Design and Analysis of Algorithms,
+                    <br/>
+                    Systems Programming, Software Methodologies, Data Structures and Algorithms, Linear Algebra, Scientific and Technical Writing.
                     </div>
                 </div>
             </div>

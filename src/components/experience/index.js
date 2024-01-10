@@ -26,6 +26,7 @@ const Experiences = () => {
                             title={exp.title}
                             link={exp.link}
                             tech={exp.technologies}
+                            summary={exp.summary}
                         />
                     ))}
                 </Item.Group>

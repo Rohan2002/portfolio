@@ -7,13 +7,14 @@ import './App.css';
 import SideBar from '../src/components/sidebar';
 import Footer from "./components/footer";
 import Skills from "./components/skills";
+import { isMobile } from "react-device-detect";
 
 function App() {
   return (
     <div className='root-container'>
       <div className='sidebar-container'>
         <SideBar />
-        <div className='content-div'>
+        <div className={isMobile ? 'content-div-mobile': 'content-div-web'}>
           <section id="home">
             <IntroductionPage />
           </section>

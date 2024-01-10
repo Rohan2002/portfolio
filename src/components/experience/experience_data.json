@@ -6,9 +6,11 @@
         "image": "kpmg",
         "date": "May 2022 - August 2023",
         "location": "Tokyo, Japan",
+        "summary": "Led multifaceted initiatives including the development of efficient file comparison software, innovative PDF algorithms, proactive security measures, comprehensive testing frameworks, and performance-enhancing microservices, fostering a culture of knowledge-sharing and transparency within the company.",
         "work": [
-            "● Led development of an in-house file comparison software at KPMG Japan, slashing false positives by 48% and accelerating processing by 60% compared to Adobe PDF comparison methods.",
-            "● Effectively minimized post-pen testing security vulnerabilities within the application's Kubernetes cluster and Django backend, all while meeting stringent production release timelines.",
+            "● Led development of an in-house file comparison software (Python, Django), reducing false positives by 48% and accelerating processing by 60% compared to Adobe PDF comparison methods.",
+            "● Developed a patented and innovative PDF table merging algorithm, optimizing data extraction and analysis from PDFs.",
+            "● Pioneered and implemented a proactive Software Composition Analysis initiative, establishing a security pipeline that addresses CVEs in Docker containers and utilizes static analysis tools for Python and Javascript codebases.",
             "● Architected and developed a comprehensive property-based testing framework in Clojure for REST APIs, assessing functionality and security across varying firewall conditions, and initiating adoption within the company.",
             "● Designed and implemented a caching microservice, reducing processing time by 30-50% for a major company application.",
             "● Led and organized a series of company-wide knowledge-sharing sessions, which collected more than 2⁄3 of employees and contributed largely to context sharing and transparency across each division."
@@ -22,6 +24,7 @@
         "image": "rutgers",
         "date": "May 2021 - May 2022",
         "location": "New Jersey, USA",
+        "summary": "Led the creation of a Python, OpenCV, and Arduino-based software platform facilitating Optogenetics experiments, enhancing automation, and improving efficiency for researchers with non-technical backgrounds.",
         "work": [
             "● Led the development of a software platform using Python, OpenCV, and Arduino enabling researchers to conduct Optogenetics experiments while seamlessly recording real-time video and experiment data.",
             "● Significantly contributed to automating experiments, streamlining data collection, and improving the overall efficiency of researchers with non-technical backgrounds."
@@ -35,6 +38,7 @@
         "image": "whizai",
         "date": "November 2021 - January 2022",
         "location": "New Jersey, USA and Pune, India",
+        "summary": "Enhanced API efficiency and reduced database latency by implementing Python-based back-end optimizations, intermediate caching, Alembic integration, and global support for machine learning engineers in an agile environment.",
         "work": [
             "● Reduced the latency of APIs by developing efficient back-end functionality to support language models using Python, Flask, and Postman.",
             "● Implemented and benchmarked an intermediate database cache with SQLAlchemy API that reduced database fetch time by over 90%.",
@@ -50,6 +54,7 @@
         "image": "healco",
         "date": "May 2020 - February 2021",
         "location": "New Jersey, USA",
+        "summary": "Architected and deployed HealCo's feature-rich press release web app, orchestrated a scalable DevOps system, executed a codebase migration to TypeScript, and integrated Stripe for payment functionality.",
         "work": [
             "● Architected, developed, and deployed HealCo’s press release web app with robust identity access management, press sharing functionality, and administrative features using NextJS, TypeScript, PostgreSQL, Twilio, SendGrid, and Stripe.",
             "● Built a production-grade, scalable, and cost-effective DevOps system and CI/CD pipeline for all HealCo apps using AWS, Docker, and GitLab CI/CD.",
@@ -65,10 +70,11 @@
         "image": "qbhacks",
         "date": "2019",
         "location": "New Jersey, USA",
+        "summary": "Founded and led the 12-Hour Hackathon in Trenton, NJ, taking charge of all aspects of event planning, including marketing, finance, logistics, sponsorship, and venue coordination.",
         "work": [
             "● President and Founder of 12-Hour Hackathon in Trenton, NJ",
             "● Oversaw all aspects of event planning, demonstrating strong leadership principles in marketing, finance, logistics, sponsorship, and venue coordination."
         ],
-        "technologies": "Communication, Emphaty, Leadership"
+        "technologies": "Communication, Empathy, Leadership"
     }
 ]

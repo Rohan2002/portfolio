@@ -1,9 +1,12 @@
 import React from 'react'
 import { Icon } from "semantic-ui-react"
+import { isMobile } from 'react-device-detect';
 import "./index.css";
 
 const SideBar = () => {
   return (
+    <>
+    {!isMobile ?
     <div className='sidebar'>
       <ul>
         <li><a href="#home"><Icon size='big' name="home" /></a></li>
@@ -13,7 +16,8 @@ const SideBar = () => {
         <li><a href="#projects"><Icon size='big' name="boxes" /></a></li>
 
       </ul>
-    </div>
+    </div> : null}
+    </>
   )
 }
 export default SideBar;

@@ -4,13 +4,17 @@ import Chess from './pics/chess.png';
 import GoodEats from './pics/ge.png';
 import Sentry from './pics/sentry.png';
 import Library from './pics/library.png';
-
+import AlbumDesktop from './pics/AlbumsDesktop.png';
+import AlbumPhone from './pics/photoAndroid.png';
 
 const ImageMapping = {
     "chess": Chess,
     "goodeats": GoodEats,
     "sentry": Sentry,
-    "library": Library
+    "library": Library,
+    "AlbumDesktop": AlbumDesktop,
+    "AlbumPhone": AlbumPhone
+
 }
 
 const ProjectCard = (props) => {

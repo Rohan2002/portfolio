@@ -5,7 +5,7 @@ import { Menu, Header, Card } from 'semantic-ui-react'
 import ProjectCard from './project';
 
 const ProjectView = () => {
-    const [activeItem, setActiveItem] = useState("Application");
+    const [activeItem, setActiveItem] = useState("All");
     const handleItemClick = (e, { name }) => {
         setActiveItem(name)
     }
@@ -17,6 +17,11 @@ const ProjectView = () => {
             <div className="projects-content-container">
                 <Menu text>
                     <Menu.Item header>Sort By</Menu.Item>
+                    <Menu.Item
+                        name='All'
+                        active={activeItem === 'All'}
+                        onClick={handleItemClick}
+                    />
                     <Menu.Item
                         name='Application'
                         active={activeItem === 'Application'}
@@ -31,18 +36,34 @@ const ProjectView = () => {
             </div>
             <div className='projects-view-container'>
                 <Card.Group>
-                    {projectData.filter((val) => val.type === activeItem).map((val, index) => (
-                        <ProjectCard
-                            key={index}
-                            name={val.name}
-                            image={val.image}
-                            description={val.description}
-                            date={val.date}
-                            link={val.link}
-                            tools={val.tools}
-                            award={val.award}
-                        />
-                    ))}
+                    {activeItem === "All" ?
+
+                        projectData.map((val, index) => (
+                            <ProjectCard
+                                key={index}
+                                name={val.name}
+                                image={val.image}
+                                description={val.description}
+                                date={val.date}
+                                link={val.link}
+                                tools={val.tools}
+                                award={val.award}
+                            />
+                        ))
+
+                        :
+                        projectData.filter((val) => val.type === activeItem).map((val, index) => (
+                            <ProjectCard
+                                key={index}
+                                name={val.name}
+                                image={val.image}
+                                description={val.description}
+                                date={val.date}
+                                link={val.link}
+                                tools={val.tools}
+                                award={val.award}
+                            />
+                        ))}
                 </Card.Group>
             </div>
         </div>
