@@ -1,5 +1,15 @@
 [
     {
+        "name": "IFEval",
+        "date": "January 2024",
+        "description": "Developed a Large Language Model (LLM) evaluation framework in Clojure based on the work done by Google and Yale University.",
+        "link": "https://github.com/Rohan2002/IFEval",
+        "image": "llm",
+        "type": "Library",
+        "tools": ["Clojure"],
+        "award": ""
+    },
+    {
         "name": "ASCII Chess",
         "date": "October 2023",
         "description": "Developed Chess. It includes the implementation of all standard Chess rules with multiplayer support!",

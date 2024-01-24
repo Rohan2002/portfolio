@@ -6,6 +6,7 @@ import Sentry from './pics/sentry.png';
 import Library from './pics/library.png';
 import AlbumDesktop from './pics/AlbumsDesktop.png';
 import AlbumPhone from './pics/photoAndroid.png';
+import LLM from './pics/llm.jpeg';
 
 const ImageMapping = {
     "chess": Chess,
@@ -13,8 +14,8 @@ const ImageMapping = {
     "sentry": Sentry,
     "library": Library,
     "AlbumDesktop": AlbumDesktop,
-    "AlbumPhone": AlbumPhone
-
+    "AlbumPhone": AlbumPhone,
+    "llm": LLM
 }
 
 const ProjectCard = (props) => {
