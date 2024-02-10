@@ -9,13 +9,13 @@
         "summary": "Led multifaceted initiatives including the development of efficient file comparison software, innovative PDF algorithms, proactive security measures, comprehensive testing frameworks, and performance-enhancing microservices, fostering a culture of knowledge-sharing and transparency within the company.",
         "work": [
             "● Led development of an in-house file comparison software (Python, Django), reducing false positives by 48% and accelerating processing by 60% compared to Adobe PDF comparison methods.",
-            "● Developed a patented and innovative PDF table merging algorithm, optimizing data extraction and analysis from PDFs.",
-            "● Pioneered and implemented a proactive Software Composition Analysis initiative, establishing a security pipeline that addresses CVEs in Docker containers and utilizes static analysis tools for Python and Javascript codebases.",
-            "● Architected and developed a comprehensive property-based testing framework in Clojure for REST APIs, assessing functionality and security across varying firewall conditions, and initiating adoption within the company.",
-            "● Designed and implemented a caching microservice, reducing processing time by 30-50% for a major company application.",
+            "● Improved major company application performance by 30-50% by deploying caching microservice and enabling Kubernetes container autoscaling with KEDA.",
+            "● Enhanced financial reporting accuracy by developing a patented algorithm that improved data analysis from PDFs.",
+            "● Accelerated deployment timelines by implementing Software Composition Analysis practices to streamline security bug resolution.",
+            "● Developed a property-based testing framework in Clojure for assessing REST APIs across varying firewall conditions.",
             "● Led and organized a series of company-wide knowledge-sharing sessions, which collected more than 2⁄3 of employees and contributed largely to context sharing and transparency across each division."
         ],
-        "technologies": "Django, Python, Clojure, Automated Testing, Algorithms, Kubernetes, Docker, Microservices"
+        "technologies": "Django, Python, Clojure, Automated Testing, Algorithms, Kubernetes, Docker, Microservices, KEDA, Distrubuted Systems"
     },
     {
         "name": "Rutgers, Shumyatsky Lab",
