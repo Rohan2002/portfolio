@@ -48,6 +48,7 @@ const ProjectView = () => {
                                 link={val.link}
                                 tools={val.tools}
                                 award={val.award}
+                                more={val.more}
                             />
                         ))
 
@@ -62,6 +63,7 @@ const ProjectView = () => {
                                 link={val.link}
                                 tools={val.tools}
                                 award={val.award}
+                                more={val.more}
                             />
                         ))}
                 </Card.Group>

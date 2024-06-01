@@ -4,19 +4,38 @@
         "date": "January 2024",
         "description": "Developed a Large Language Model (LLM) evaluation framework in Clojure based on the work done by Google and Yale University.",
         "link": "https://github.com/Rohan2002/IFEval",
+        "more": [],
         "image": "llm",
         "type": "Library",
-        "tools": ["Clojure"],
+        "tools": [
+            "Clojure"
+        ],
+        "award": ""
+    },
+    {
+        "name": "PyPods",
+        "date": "May 2024",
+        "more": [],
+        "description": "A lightweight solution to execute Python dependencies in an isolated fashion.",
+        "link": "https://github.com/Rohan2002/pypods",
+        "image": "pypods",
+        "type": "Library",
+        "tools": [
+            "Python"
+        ],
         "award": ""
     },
     {
         "name": "ASCII Chess",
         "date": "October 2023",
-        "description": "Developed Chess. It includes the implementation of all standard Chess rules with multiplayer support!",
+        "description": "Developed Chess. It includes the implementation of all standard Chess rules with multiplayer support.",
         "link": "https://github.com/Rohan2002/Chess",
+        "more": [],
         "image": "chess",
         "type": "Application",
-        "tools": ["Java"],
+        "tools": [
+            "Java"
+        ],
         "award": ""
     },
     {
@@ -24,79 +43,71 @@
         "date": "February 2021",
         "description": "Developed a full-stack web application using React and Node.js for users to obtain nutritional information from images of food items.",
         "link": "https://github.com/Rohan2002/GoodEats",
+        "more": [],
         "image": "goodeats",
         "type": "Application",
-        "tools": ["React", "Node.js"],
+        "tools": [
+            "React",
+            "Node.js"
+        ],
         "award": ""
     },
     {
-        "name": "Photo Library (Desktop)",
+        "name": "Albums",
         "date": "November 2023",
-        "description": "Developed a Java FX photo application for managing photos in albums, implementing features such as user login, album creation, photo tagging, search functionality, and user management, following best practices for code organization and version control using Bitbucket.",
-        "link": "https://github.com/Rohan2002/photolib",
+        "description": "JavaFX-based desktop app built using MVC architecture for storing pictures and albums.",
+        "link": "https://github.com/Rohan2002/Albums",
+        "more": [],
         "image": "AlbumDesktop",
         "type": "Application",
-        "tools": ["Java", "JavaFX", "FXML"],
-        "award": ""
-    },
-    {
-        "name": "Photo Library (Android)",
-        "date": "December 2023",
-        "description": "Developed the same Photo Library project for the Android phone.",
-        "link": "https://github.com/Rohan2002/Albums-Android",
-        "image": "AlbumPhone",
-        "type": "Application",
-        "tools": ["Java", "Android Studio"],
+        "tools": [
+            "Java",
+            "JavaFX",
+            "FXML"
+        ],
         "award": ""
     },
     {
         "name": "Malloc/Free Clone",
         "date": "May 2022",
-        "description": "Reinvent the wheel by creating my own memory allocation and deallocation library in C.",
+        "description": "Memory allocation and deallocation library in C.",
         "link": "https://github.com/Rohan2002/Malloc-Free",
-        "image": "library",
+        "more": [],
+        "image": "memory",
         "type": "Library",
-        "tools": ["C"],
+        "tools": [
+            "C"
+        ],
         "award": ""
     },
     {
         "name": "Concurrent File Formatter",
         "date": "May 2022",
-        "description": "Created, tested, and documented a command-line interface (CLI) in C that uses producer-consumer threading to concurrently format (word wrap) text files in multiple directories and subdirectories.",
+        "description": "Multithreaded CLI in C for concurrent text formatting.",
         "link": "https://github.com/Rohan2002/Concurrent-File-Wrapper",
-        "image": "library",
+        "more": [],
+        "image": "file",
         "type": "Library",
-        "tools": ["C"],
+        "tools": [
+            "C", "Multithreading", "POSIX threads"
+        ],
         "award": ""
     },
     {
-        "name": "Posix Thread Clone",
-        "date": "October 2023",
-        "description": "Designed and benchmarked a custom C library to implement Posix Threads (pthread) in user space, including thread mutex, scheduler, and essential thread functionality.",
-        "link": "https://github.com/Rohan2002/Operating-System/tree/main/threading",
-        "image": "library",
+        "name": "Operating System Components",
+        "date": "2023",
+        "description": ["Libraries for POSIX thread emulation, virtual memory management, and FUSE-based file systems."],
+        "more": [
+            "● Designed and benchmarked a custom C library to implement Posix Threads (pthread) in user space, including thread mutex, scheduler, and essential thread functionality.",
+            "● Developed a library in C to simulate virtual memory. I implemented a 2-level page table to store the virtual address translations, and optimized page table lookup with a translation lookaside buffer",
+            "● Designed a file system using FUSE (Filesystem in Userspace). I implemented basic file system operations like ls, touch, mkdir, cd."
+        ],
+        "link": "https://github.com/Rohan2002/Operating-System/",
+        "image": "os",
         "type": "Library",
-        "tools": ["C"],
-        "award": ""
-    },
-    {
-        "name": "Virtual Memory",
-        "date": "November 2023",
-        "description": "Developed a library in C to simulate virtual memory. I implemented a 2-level page table to store the virtual address translations, and optimized page table lookup with a translation lookaside buffer",
-        "link": "https://github.com/Rohan2002/Operating-System/tree/main/virtual-memory",
-        "image": "library",
-        "type": "Library",
-        "tools": ["C"],
-        "award": ""
-    },
-    {
-        "name": "FUSE based File System",
-        "date": "December 2023",
-        "description": "Designed a file system using FUSE (Filesystem in Userspace). I implemented basic file system operations like ls, touch, mkdir, cd.",
-        "link": "https://github.com/Rohan2002/Operating-System/tree/main/file-system",
-        "image": "library",
-        "type": "Library",
-        "tools": ["C"],
+        "tools": [
+            "C"
+        ],
         "award": ""
     }
 ]

@@ -4,7 +4,7 @@ import { Image, Header } from 'semantic-ui-react'
 
 import "./index.css";
 
-import RohanProfilePic from "./images/profile-picture.jpeg";
+import RohanProfilePic from "./images/rohan.JPG";
 import Socials from "../socials";
 
 const IntroductionPage = () => {

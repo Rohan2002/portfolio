@@ -8,12 +8,13 @@
         "location": "Tokyo, Japan",
         "summary": "Led multifaceted initiatives including the development of efficient file comparison software, innovative PDF algorithms, proactive security measures, comprehensive testing frameworks, and performance-enhancing microservices, fostering a culture of knowledge-sharing and transparency within the company.",
         "work": [
-            "● Led development of an in-house file comparison software (Python, Django), reducing false positives by 48% and accelerating processing by 60% compared to Adobe PDF comparison methods.",
-            "● Improved major company application performance by 30-50% by deploying caching microservice and enabling Kubernetes container autoscaling with KEDA.",
-            "● Enhanced financial reporting accuracy by developing a patented algorithm that improved data analysis from PDFs.",
-            "● Accelerated deployment timelines by implementing Software Composition Analysis practices to streamline security bug resolution.",
-            "● Developed a property-based testing framework in Clojure for assessing REST APIs across varying firewall conditions.",
-            "● Led and organized a series of company-wide knowledge-sharing sessions, which collected more than 2⁄3 of employees and contributed largely to context sharing and transparency across each division."
+            "● Led and delivered a file comparison software (Python) surpassing Adobe's with 48% more accuracy and 60% faster processing.",
+            "● Led 95% of app security bug reduction by enforcing secure coding practices and upgrading Python with 100+ dependencies.",
+            "● Achieved 30-50% faster audit processing by implementing a distributed cache service (Python), boosting auditor efficiency.",
+            "● Enhanced financial auditing accuracy by 35% using patented Python algorithms, optimizing PDF data extraction.",
+            "● Tested 1000+ REST API endpoints by developing a Clojure-based property testing framework under tight deadlines.",
+            "● Streamlined Azure deployments with systematic CI/CD pipelines, Kubernetes configurations, and refined SDLC measures.",
+            "● Improved divisional transparency by hosting 20+ company-wide knowledge-sharing sessions, engaging over 70% of staff."
         ],
         "technologies": "Django, Python, Clojure, Automated Testing, Algorithms, Kubernetes, Docker, Microservices, KEDA, Distrubuted Systems"
     },
@@ -26,8 +27,10 @@
         "location": "New Jersey, USA",
         "summary": "Led the creation of a Python, OpenCV, and Arduino-based software platform facilitating Optogenetics experiments, enhancing automation, and improving efficiency for researchers with non-technical backgrounds.",
         "work": [
-            "● Led the development of a software platform using Python, OpenCV, and Arduino enabling researchers to conduct Optogenetics experiments while seamlessly recording real-time video and experiment data.",
-            "● Significantly contributed to automating experiments, streamlining data collection, and improving the overall efficiency of researchers with non-technical backgrounds."
+            "● Reduced Optogenetics experiment time by 83% through developing Python software to automate the experimental process.",
+            "● Automated 60+ hours of video analysis by implementing machine learning pipelines using DeepLabCut and EzTrack.",
+            "● Achieved a 93% cost reduction by creating an in-house Arduino-based device to replace the existing TTL pulse generator."
+            
         ],
         "technologies": "Python, OpenCV, Arduino, Statistical Data Analysis"
     },
@@ -40,10 +43,8 @@
         "location": "New Jersey, USA and Pune, India",
         "summary": "Enhanced API efficiency and reduced database latency by implementing Python-based back-end optimizations, intermediate caching, Alembic integration, and global support for machine learning engineers in an agile environment.",
         "work": [
-            "● Reduced the latency of APIs by developing efficient back-end functionality to support language models using Python, Flask, and Postman.",
-            "● Implemented and benchmarked an intermediate database cache with SQLAlchemy API that reduced database fetch time by over 90%.",
-            "● Increased the efficiency of engineers by integrating and documenting Alembic for easier database schema migrations.",
-            "● Collaborated and supported multiple machine learning engineers and data scientists worldwide using tools such as Jira in an agile environment."
+            "● Optimized back-end functionality (Python, Flask) to support language models resulting in a 30% decrease in API latency.",
+            "● Developed and onboarded the entire team to utilize Python tool for streamlined database migrations with Alembic API."
         ],
         "technologies": "Python, Databases, Flask, REST APIs, Language Models, Microservices"
     },
@@ -59,9 +60,25 @@
             "● Architected, developed, and deployed HealCo’s press release web app with robust identity access management, press sharing functionality, and administrative features using NextJS, TypeScript, PostgreSQL, Twilio, SendGrid, and Stripe.",
             "● Built a production-grade, scalable, and cost-effective DevOps system and CI/CD pipeline for all HealCo apps using AWS, Docker, and GitLab CI/CD.",
             "● Migrated the entire codebase from JavaScript to TypeScript to reduce bugs and improve maintainability.",
+            "● Rapidly created and deployed web application features for hospitals to lease medical spaces during the COVID-19 pandemic.",
             "● Integrated Stripe into the web application to enable payments by ACH debits and credit cards."
         ],
         "technologies": "AWS, Node.js, Next.js, React.js, Typescript, Javascript, MySQL, PostgreSQL, Docker, Microservices"
+    },
+    {
+        "name": "Ziplyne Inc.",
+        "link": "https://www.ziplyne.com/",
+        "title": "Software Engineer Intern",
+        "image": "ziplyne",
+        "date": "May 2019 - September 2019",
+        "location": "New Jersey, USA",
+        "summary": "Played a pivotal role in overhauling the company's digital presence, integrating third-party tools, and enhancing product visibility to drive sales analytics for Ziplyne.",
+        "work": [
+            "● Collaborated with the CEO, CMO, UI/UX designers, and senior developers to assist in the company redesign.",
+            "● Rebuilt the company website with third party webhook integrations and also worked on designing parts of the main product using React.js.",
+            "● Used 3rd party snippets and API integrations to improve web functionality and increase product visibility which aided the Ziplyne team with sales analytics."
+        ],
+        "technologies": "AWS, React.js, Typescript, Javascript, Docker"
     },
     {
         "name": "Quakerbridge Hacks",

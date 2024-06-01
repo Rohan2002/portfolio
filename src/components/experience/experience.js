@@ -6,6 +6,7 @@ import HealCoImage from './companies/healco.svg';
 import WhizAiImage from './companies/whizai.jpeg';
 import RutgersImage from './companies/rutgers.jpeg';
 import QBHacksImage from './companies/qbhacks.png';
+import Ziplyne from './companies/ziplyne.jpeg';
 
 
 import './index.css';
@@ -16,6 +17,7 @@ const ImageMapping = {
     "whizai": WhizAiImage,
     "rutgers": RutgersImage,
     "qbhacks": QBHacksImage,
+    "ziplyne": Ziplyne,
 }
 const ExperienceCard = (props) => {
     const [on, setOn] = useState(0);
@@ -63,7 +65,7 @@ const ExperienceCard = (props) => {
                         ) : ""
                     }
                 </div>}
-                <div>
+                <div className="skills-div">
                     <b>Skills:</b> {props.tech}
                 </div>
                 <div className="summary-div">
