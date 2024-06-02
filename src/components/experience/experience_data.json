@@ -9,10 +9,10 @@
         "summary": "Led multifaceted initiatives including the development of efficient file comparison software, innovative PDF algorithms, proactive security measures, comprehensive testing frameworks, and performance-enhancing microservices, fostering a culture of knowledge-sharing and transparency within the company.",
         "work": [
             "● Led and delivered a file comparison software (Python) surpassing Adobe's with 48% more accuracy and 60% faster processing.",
-            "● Led 95% of app security bug reduction by enforcing secure coding practices and upgrading Python with 100+ dependencies.",
+            "● Led a 95% reduction of app security bugs by enforcing secure coding practices and upgrading Python with 100+ dependencies.",
             "● Achieved 30-50% faster audit processing by implementing a distributed cache service (Python), boosting auditor efficiency.",
             "● Enhanced financial auditing accuracy by 35% using patented Python algorithms, optimizing PDF data extraction.",
-            "● Tested 1000+ REST API endpoints by developing a Clojure-based property testing framework under tight deadlines.",
+            "● Tested 100+ REST API endpoints by developing a Clojure-based property testing framework under tight deadlines.",
             "● Streamlined Azure deployments with systematic CI/CD pipelines, Kubernetes configurations, and refined SDLC measures.",
             "● Improved divisional transparency by hosting 20+ company-wide knowledge-sharing sessions, engaging over 70% of staff."
         ],
