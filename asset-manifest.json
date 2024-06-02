@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3bfbef66.css",
-    "main.js": "/static/js/main.738d3324.js",
+    "main.js": "/static/js/main.d074bd9c.js",
     "static/media/rohan.JPG": "/static/media/rohan.6d7e4eec666280ac52eb.JPG",
     "static/media/pypods.jpeg": "/static/media/pypods.ab324fd5ea260bac8e00.jpeg",
     "static/media/brand-icons.svg": "/static/media/brand-icons.6729d29753e000c17489.svg",
@@ -35,10 +35,10 @@
     "static/media/healco.svg": "/static/media/healco.5c83fcb9af32b23fe15393dd4453f107.svg",
     "index.html": "/index.html",
     "main.3bfbef66.css.map": "/static/css/main.3bfbef66.css.map",
-    "main.738d3324.js.map": "/static/js/main.738d3324.js.map"
+    "main.d074bd9c.js.map": "/static/js/main.d074bd9c.js.map"
   },
   "entrypoints": [
     "static/css/main.3bfbef66.css",
-    "static/js/main.738d3324.js"
+    "static/js/main.d074bd9c.js"
   ]
 }
